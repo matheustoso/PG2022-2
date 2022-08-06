@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30893BE289E2E4500C86689 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C30893BD289E2E4500C86689 /* main.cpp */; };
+		C30893CA289E34A400C86689 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C30893C8289E34A400C86689 /* libglfw3.a */; };
+		C30893CB289E34A400C86689 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = C30893C9289E34A400C86689 /* glad.c */; };
+		C30893D1289E35B900C86689 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30893D0289E35B900C86689 /* AppKit.framework */; };
+		C30893D3289E35BF00C86689 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30893D2289E35BF00C86689 /* IOKit.framework */; };
+		C30893D5289E35C300C86689 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30893D4289E35C300C86689 /* CoreFoundation.framework */; };
+		C30893D7289E35C700C86689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30893D6289E35C700C86689 /* Foundation.framework */; };
+		C30893D9289E35CC00C86689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30893D8289E35CC00C86689 /* CoreGraphics.framework */; };
+		C30893DB289E3A3600C86689 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30893DA289E3A3600C86689 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C30893B8289E2E4500C86689 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C30893BA289E2E4500C86689 /* HelloTriangle-MatheusNunesToso */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HelloTriangle-MatheusNunesToso"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30893BD289E2E4500C86689 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C30893C8289E34A400C86689 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
+		C30893C9289E34A400C86689 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		C30893CC289E34B000C86689 /* glad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glad; sourceTree = "<group>"; };
+		C30893CD289E34B000C86689 /* KHR */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KHR; sourceTree = "<group>"; };
+		C30893CE289E34B000C86689 /* GLFW */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GLFW; sourceTree = "<group>"; };
+		C30893D0289E35B900C86689 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C30893D2289E35BF00C86689 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		C30893D4289E35C300C86689 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C30893D6289E35C700C86689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C30893D8289E35CC00C86689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C30893DA289E3A3600C86689 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C30893B7289E2E4500C86689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30893DB289E3A3600C86689 /* OpenGL.framework in Frameworks */,
+				C30893D9289E35CC00C86689 /* CoreGraphics.framework in Frameworks */,
+				C30893D7289E35C700C86689 /* Foundation.framework in Frameworks */,
+				C30893D5289E35C300C86689 /* CoreFoundation.framework in Frameworks */,
+				C30893D3289E35BF00C86689 /* IOKit.framework in Frameworks */,
+				C30893D1289E35B900C86689 /* AppKit.framework in Frameworks */,
+				C30893CA289E34A400C86689 /* libglfw3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30893B1289E2E4500C86689 = {
+			isa = PBXGroup;
+			children = (
+				C30893C7289E32C000C86689 /* Dependencies */,
+				C30893BC289E2E4500C86689 /* HelloTriangle-MatheusNunesToso */,
+				C30893BB289E2E4500C86689 /* Products */,
+				C30893CF289E35B900C86689 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C30893BB289E2E4500C86689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C30893BA289E2E4500C86689 /* HelloTriangle-MatheusNunesToso */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C30893BC289E2E4500C86689 /* HelloTriangle-MatheusNunesToso */ = {
+			isa = PBXGroup;
+			children = (
+				C30893C9289E34A400C86689 /* glad.c */,
+				C30893BD289E2E4500C86689 /* main.cpp */,
+			);
+			path = "HelloTriangle-MatheusNunesToso";
+			sourceTree = "<group>";
+		};
+		C30893C5289E329800C86689 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				C30893C8289E34A400C86689 /* libglfw3.a */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		C30893C6289E32A500C86689 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				C30893CC289E34B000C86689 /* glad */,
+				C30893CE289E34B000C86689 /* GLFW */,
+				C30893CD289E34B000C86689 /* KHR */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		C30893C7289E32C000C86689 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C30893C6289E32A500C86689 /* Include */,
+				C30893C5289E329800C86689 /* Libs */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		C30893CF289E35B900C86689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30893DA289E3A3600C86689 /* OpenGL.framework */,
+				C30893D8289E35CC00C86689 /* CoreGraphics.framework */,
+				C30893D6289E35C700C86689 /* Foundation.framework */,
+				C30893D4289E35C300C86689 /* CoreFoundation.framework */,
+				C30893D2289E35BF00C86689 /* IOKit.framework */,
+				C30893D0289E35B900C86689 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C30893B9289E2E4500C86689 /* HelloTriangle-MatheusNunesToso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30893C1289E2E4500C86689 /* Build configuration list for PBXNativeTarget "HelloTriangle-MatheusNunesToso" */;
+			buildPhases = (
+				C30893B6289E2E4500C86689 /* Sources */,
+				C30893B7289E2E4500C86689 /* Frameworks */,
+				C30893B8289E2E4500C86689 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloTriangle-MatheusNunesToso";
+			productName = "HelloTriangle-MatheusNunesToso";
+			productReference = C30893BA289E2E4500C86689 /* HelloTriangle-MatheusNunesToso */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C30893B2289E2E4500C86689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C30893B9289E2E4500C86689 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C30893B5289E2E4500C86689 /* Build configuration list for PBXProject "HelloTriangle-MatheusNunesToso" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C30893B1289E2E4500C86689;
+			productRefGroup = C30893BB289E2E4500C86689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C30893B9289E2E4500C86689 /* HelloTriangle-MatheusNunesToso */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C30893B6289E2E4500C86689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30893BE289E2E4500C86689 /* main.cpp in Sources */,
+				C30893CB289E34A400C86689 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C30893BF289E2E4500C86689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C30893C0289E2E4500C86689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C30893C2289E2E4500C86689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Dependencies/Include";
+				LIBRARY_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Dependencies/Libs",
+					"$(PROJECT_DIR)/Dependencies/Libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C30893C3289E2E4500C86689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Dependencies/Include";
+				LIBRARY_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Dependencies/Libs",
+					"$(PROJECT_DIR)/Dependencies/Libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30893B5289E2E4500C86689 /* Build configuration list for PBXProject "HelloTriangle-MatheusNunesToso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30893BF289E2E4500C86689 /* Debug */,
+				C30893C0289E2E4500C86689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30893C1289E2E4500C86689 /* Build configuration list for PBXNativeTarget "HelloTriangle-MatheusNunesToso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30893C2289E2E4500C86689 /* Debug */,
+				C30893C3289E2E4500C86689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C30893B2289E2E4500C86689 /* Project object */;
+}
